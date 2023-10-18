@@ -3,10 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="TestCases.VerifyLoginPage"/>
       <class name="Finalproject.MavFinal.B"/>
       <class name="Finalproject.MavFinal.A"/>
+      <class name="screenshot.Smallpartss"/>
+      <class name="TestCases.LoginPage"/>
+      <class name="REgistration.Registration"/>
       <class name="Excelsheet.dataExcel"/>
       <class name="Excelsheet.Excel"/>
+      <class name="Amazonpro.project"/>
+      <class name="TestCases.EnterExcelData"/>
+      <class name="screenshot.ss"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

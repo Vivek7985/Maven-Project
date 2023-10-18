@@ -15,7 +15,7 @@ public class B {
 		Thread.sleep(2000);
 		driver.quit();
 		System.out.println("Final done");
-
+        driver.quit();
 	}
 }
 

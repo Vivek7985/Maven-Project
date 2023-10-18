@@ -61,8 +61,9 @@ public class LoginPage extends BaseClass {
 		Login.click();
 		Thread.sleep(2000);
 		
-		driver.quit();
 		System.out.println("Done");
+		driver.quit();
+		
 		
 		
 	}

@@ -23,7 +23,7 @@ public class Smallpartss {
 		//For SS we have to required this method.
 		TakesScreenshot ss=(TakesScreenshot)driver;
 		
-		//Finding small part for wich we have to take SS.
+		//Finding small part for which we have to take SS.
 		File source=driver.findElement(By.xpath("//*[@id=\"main\"]/section[1]/div[1]/div[1]/div")).getScreenshotAs(OutputType.FILE);
 		System.out.println("Detect");
 		

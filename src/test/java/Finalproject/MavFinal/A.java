@@ -11,7 +11,7 @@ public class A {
 	
 	@Test
 	public void name2() {
-		System.out.println("tup");
+		System.out.println("Vivi");
 		
 	}
 }
